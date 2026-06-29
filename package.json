@@ -1,8 +1,14 @@
 {
   "name": "markdown-collapsible-headers",
-  "displayName": "Markdown Collapsible Headers",
-  "publisher": "local",
+  "displayName": "Markdown Preview Collapsible Headers",
+  "description": "Collapse Sections in Markdown Preview",
+  "publisher": "WesleyHo",
   "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/who395/markdown-preview-collapsible-headers"
+  },
+  "icon": "md-prev-col-h.png",
   "categories": [
     "Other"
   ],
