@@ -1,0 +1,51 @@
+details.md-section {
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
+
+details.md-section > summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+details.md-section > summary::-webkit-details-marker,
+details.md-section > summary::marker {
+  display: none;
+}
+
+details.md-section > summary > h1,
+details.md-section > summary > h2,
+details.md-section > summary > h3,
+details.md-section > summary > h4,
+details.md-section > summary > h5,
+details.md-section > summary > h6 {
+  display: block;
+  margin: 0;
+  user-select: none;
+}
+
+details.md-section > summary > h1::before,
+details.md-section > summary > h2::before,
+details.md-section > summary > h3::before,
+details.md-section > summary > h4::before,
+details.md-section > summary > h5::before,
+details.md-section > summary > h6::before {
+  content: "▾ ";
+  font-size: 0.75em;
+  opacity: 0.6;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+details.md-section > .md-section-body {
+  padding-top: 0.25em;
+}
+
+details.md-section:not([open]) > summary > h1::before,
+details.md-section:not([open]) > summary > h2::before,
+details.md-section:not([open]) > summary > h3::before,
+details.md-section:not([open]) > summary > h4::before,
+details.md-section:not([open]) > summary > h5::before,
+details.md-section:not([open]) > summary > h6::before {
+  transform: rotate(-90deg);
+}

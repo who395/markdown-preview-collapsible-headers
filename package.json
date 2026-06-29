@@ -1,0 +1,22 @@
+{
+  "name": "markdown-collapsible-headers",
+  "displayName": "Markdown Collapsible Headers",
+  "publisher": "local",
+  "version": "0.0.2",
+  "categories": [
+    "Other"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "markdown.markdownItPlugins": true,
+    "markdown.previewStyles": [
+      "./preview.css"
+    ]
+  }
+}
