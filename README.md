@@ -1,5 +1,7 @@
 # Markdown Preview Collapsible Headers
 
+![Example usage](https://raw.githubusercontent.com/who395/markdown-preview-collapsible-headers/refs/heads/main/example-usage.gif)
+
 A VSCode extension that makes headers in the markdown preview panel collapsible, similar to the fold arrows in the editor gutter.
 
 ## What it does
